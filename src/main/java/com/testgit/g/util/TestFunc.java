@@ -1,4 +1,5 @@
 package com.testgit.g.util;
 
-public class TestFunc {
+public @interface TestFunc {
+    boolean b() default true;
 }
